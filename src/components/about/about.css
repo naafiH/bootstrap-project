@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#head a{
+    text-decoration: none;
+}
+#head a:hover{
+    text-decoration: none;
+}
+.about h1, h2, h3, h4, h5, h6{
+    font-family: 'poppins', sans-serif;
+}
+#product{
+    text-align: center;
+    background-color: #f6f6f7;
+    padding: 5px 0;
+}
+#product img{
+    width: 50%;
+    filter: grayscale(100);
+    display: inline-block;
+    padding: 15px 0;
+    margin: 0 auto;
+    transition: 0.6s ease-in-out;
+}
+#product img:hover{
+filter: none;
+transform: scale(1.5);
+}
+
+.about .content h2{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 100px;
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+}
+.about .content h3{
+    font-weight:300;
+    line-height: 32px;
+    font-size: 24px;
+}
+.about .content ul{
+    list-style-type: none;
+    padding: 0;
+}
+.about .content ul li{
+    /* list-style-type: none; */
+    padding: 10px 0 0 20px;
+    display: flex;
+}
+
+.about .content ul li p{
+    margin-bottom: 0;
+}
+.about .content ul li i{
+    font-size: 20px;
+    color: orange;
+    margin-right: 7px;
+}
+.list {
+   
+    background-color: orange;
+    padding: 37px 0px 20px 0px;
+    color: #fff;
+}
+.list .counters span{
+     font-size: 36px;
+     display: block;
+    font-weight: 700;
+}
+.list .counters p{
+    font-weight: ;
+}
