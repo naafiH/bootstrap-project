@@ -8,7 +8,7 @@ export default function header() {
           <div className="container align-items-stretch">
             <div className="icon">
           <a className="navbar-brand" href="#">
-            Navbar
+            Navbar updated
           </a>
             </div>
           <button
