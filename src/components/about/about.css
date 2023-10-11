@@ -27,7 +27,7 @@
 }
 #product img:hover{
 filter: none;
-transform: scale(1.5);
+transform: scale(1.8);
 }
 
 .about .content h2{
@@ -71,6 +71,99 @@ transform: scale(1.5);
      display: block;
     font-weight: 700;
 }
-.list .counters p{
+/* .list .counters p{
     font-weight: ;
+} */
+.whyus{
+    margin-top: 50px;
+}
+.whyus .content{
+    padding: 30px;
+    background-color: orange; 
+    border-radius: 4px;
+    color: #fff;
+   
+   }
+   .whyus .content h3{
+       font-size: 40px;
+       font-weight: 700;
+       margin-bottom: 30px;
+   }
+   .whyus .content p{
+       font-weight: 300;
+       font-size: 15px;
+       text-transform: uppercase;
+       margin-bottom: 30px;
+   }
+   .whyus .content a{
+       text-decoration: none;
+       padding:10px 20px;
+       border-radius: 50px;
+       background-color: white;
+       color: orange;
+       transition: 0.4s ease-in-out;
+    display: inline-block;
+    border: 3px solid white;
+   }
+   .whyus .content a:hover{
+       background-color:orange;
+       color: white;
+   }
+   .whyus .icon_boxes .icon-box{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    pad: 40px 30px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 2px 15px orange;
+   }
+   .whyus .icon_boxes .icon-box:hover{
+    box-shadow: 0px 5px 25px rgb(255, 231, 122) ;
+   }
+   .whyus .icon_boxes .icon-box i{
+    font-size: 40px;
+    color: orange;
+    /* margin-bottom: 30px; */
+    padding: 20px 0;
+   }
+   .whyus .icon_boxes .icon-box h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin:0 0 20px 0 ;
+
+   }
+   .whyus .icon_boxes .icon-box p{
+    font-size: 15px;
+    color: #848484;
+    padding: 15px;
+}
+.call-action {
+    background-color: orange;
+    margin-top: 50px;
+}
+.call-action .text-center h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.call-action .text-center p{
+    text-transform: uppercase;
+    padding-inline: 60px;
+}
+.call-action .text-center a{
+    text-decoration: none;
+    color: orange;
+    padding: 13px 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    line-height: 50px;
+    transition: 0.4s ease-in-out;
+    border: 3px solid #fff;
+
+}
+.call-action .text-center a:hover{
+    background-color: orange;
+    color: white;
+    
 }

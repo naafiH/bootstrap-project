@@ -95,12 +95,76 @@ export default function about() {
             <div className="col-lg-3 col-6 text-center">
                 <span>50+</span>
                 <p>Workers</p>
-            </div>
+             </div>
             </div>
         </div>
       {/* worklist end//////////////////////////// */}
 
+
       </section>
+
+      {/* why us section */}
+        <div className="whyus">
+            <div className="container">
+                <div className="row">
+                  <div className="col-lg-4 d-flex align-items-stretch">
+                    <div className="content">
+                      <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti a quae, dolor quibusdam fugiat voluptates sequi quaerat id, eaque dicta eligendi nesciunt porro ad accusamus deserunt error odit. Quibusdam.</p>
+                      <div className="text-center">
+                        <a href="#" className="more-btn">Learn More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-8 d-flex align-items-stretch">
+                    <div className="icon_boxes d-flex flex-column justify-content-center">
+                        <div className="row">
+                          <div className="col-xl-4 d-flex align-items-stretch">
+                            <div className="icon-box mt-4 mt-xl-0">
+                              <i className="fa fa-id-card-o"></i>
+                              <h4>lorem ipsum</h4>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam cum illo eum eaque expedita cumque fugit reiciendis sapiente minima possimus dolores dolorum voluptas nesciunt sint aspernatur, non ut laudantium architecto.</p>
+                            </div>
+                          </div>
+                          <div className="col-xl-4 d-flex align-items-stretch">
+                            <div className="icon-box mt-4 mt-xl-0">
+                              <i className="fa fa-id-card-o"></i>
+                              <h4>lorem ipsum</h4>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam cum illo eum eaque expedita cumque fugit reiciendis sapiente minima possimus dolores dolorum voluptas nesciunt sint aspernatur, non ut laudantium architecto.</p>
+                            </div>
+                          </div>
+                          <div className="col-xl-4 d-flex align-items-stretch">
+                            <div className="icon-box mt-4 mt-xl-0">
+                              <i className="fa fa-picture-o"></i>
+                              <h4>lorem ipsum</h4>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam cum illo eum eaque expedita cumque fugit reiciendis sapiente minima possimus dolores dolorum voluptas nesciunt sint aspernatur, non ut laudantium architecto.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+      {/* why us section end */}
+
+      
+      {/* callto action */}
+
+        <section className="call-action">
+          <div className="container">
+            <div className="text-center">
+              <h3>you can contact for</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam est cum ducimus minima, doloribus, numquam ullam dolorum sin</p>
+              <a href="" > Call to action</a>
+            </div>
+          </div>
+        </section>
+
+      {/* callto action end */}
+
     </>
   );
 }
